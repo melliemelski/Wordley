@@ -16,6 +16,9 @@
 		FFDECADC2A5EEBA600495AA9 /* WordleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECADB2A5EEBA600495AA9 /* WordleyTests.swift */; };
 		FFDECAE62A5EEBA600495AA9 /* WordleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAE52A5EEBA600495AA9 /* WordleyUITests.swift */; };
 		FFDECAE82A5EEBA600495AA9 /* WordleyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAE72A5EEBA600495AA9 /* WordleyUITestsLaunchTests.swift */; };
+		FFDECAF82A5EED4E00495AA9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAF72A5EED4E00495AA9 /* KeyboardViewController.swift */; };
+		FFDECAFA2A5EED7A00495AA9 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAF92A5EED7A00495AA9 /* BoardViewController.swift */; };
+		FFDECAFC2A5EF51900495AA9 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECAFB2A5EF51900495AA9 /* KeyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FFDECAE12A5EEBA600495AA9 /* WordleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDECAE52A5EEBA600495AA9 /* WordleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleyUITests.swift; sourceTree = "<group>"; };
 		FFDECAE72A5EEBA600495AA9 /* WordleyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFDECAF72A5EED4E00495AA9 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		FFDECAF92A5EED7A00495AA9 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		FFDECAFB2A5EF51900495AA9 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,8 @@
 		FFDECAC32A5EEBA500495AA9 /* Wordley */ = {
 			isa = PBXGroup;
 			children = (
-				FFDECAC42A5EEBA500495AA9 /* AppDelegate.swift */,
-				FFDECAC62A5EEBA500495AA9 /* SceneDelegate.swift */,
-				FFDECAC82A5EEBA500495AA9 /* ViewController.swift */,
-				FFDECACA2A5EEBA500495AA9 /* Main.storyboard */,
-				FFDECACD2A5EEBA600495AA9 /* Assets.xcassets */,
-				FFDECACF2A5EEBA600495AA9 /* LaunchScreen.storyboard */,
+				FFDECAF62A5EEC6200495AA9 /* Other */,
+				FFDECAF42A5EEC4100495AA9 /* Core */,
 				FFDECAD22A5EEBA600495AA9 /* Info.plist */,
 			);
 			path = Wordley;
@@ -125,6 +127,29 @@
 				FFDECAE72A5EEBA600495AA9 /* WordleyUITestsLaunchTests.swift */,
 			);
 			path = WordleyUITests;
+			sourceTree = "<group>";
+		};
+		FFDECAF42A5EEC4100495AA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FFDECAC82A5EEBA500495AA9 /* ViewController.swift */,
+				FFDECAF72A5EED4E00495AA9 /* KeyboardViewController.swift */,
+				FFDECAF92A5EED7A00495AA9 /* BoardViewController.swift */,
+				FFDECAFB2A5EF51900495AA9 /* KeyCell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FFDECAF62A5EEC6200495AA9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FFDECAC42A5EEBA500495AA9 /* AppDelegate.swift */,
+				FFDECAC62A5EEBA500495AA9 /* SceneDelegate.swift */,
+				FFDECACA2A5EEBA500495AA9 /* Main.storyboard */,
+				FFDECACD2A5EEBA600495AA9 /* Assets.xcassets */,
+				FFDECACF2A5EEBA600495AA9 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +286,9 @@
 				FFDECAC92A5EEBA500495AA9 /* ViewController.swift in Sources */,
 				FFDECAC52A5EEBA500495AA9 /* AppDelegate.swift in Sources */,
 				FFDECAC72A5EEBA500495AA9 /* SceneDelegate.swift in Sources */,
+				FFDECAFC2A5EF51900495AA9 /* KeyCell.swift in Sources */,
+				FFDECAF82A5EED4E00495AA9 /* KeyboardViewController.swift in Sources */,
+				FFDECAFA2A5EED7A00495AA9 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
